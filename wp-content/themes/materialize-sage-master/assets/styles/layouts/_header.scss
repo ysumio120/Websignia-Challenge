@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../../fonts/roboto/Roboto-Bold.eot');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.header-nav {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background-color: #4bb1b7;
+  box-shadow: none;
+  height: 553px;
+
+  .nav-main {
+    flex: 0 0 45%;
+    -webkit-flex: 0 0 45%;
+    -moz-flex: 0 0 45%;
+    text-align: center;
+
+    .main-title {
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 60px;
+      padding: 25px;
+      color: #FFFFFF;
+    }
+
+    .main-description {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 1.2em;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.brand-logo-circle {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+
+  div {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: #FFFFFF;    
+  }
+
+}
+
+.nav-menu {
+  position: absolute;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  top: 35px;
+  right: 33px;
+
+  div {
+    display: inline-block;
+  }
+
+  .menu-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 33px;
+    padding-right: 20px;
+    color: #FFFFFF;
+  }
+
+  .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 7px;
+    background-color: #FFFFFF;
+  }
+
+}
