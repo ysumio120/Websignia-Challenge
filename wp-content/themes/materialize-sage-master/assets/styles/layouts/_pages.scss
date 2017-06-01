@@ -108,3 +108,59 @@
 
   }
 }
+
+.job-listing {
+  margin: 0 18%;
+  padding: 3em 0;
+
+  .job {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border: none;
+    }
+
+    .role-wrapper {
+      flex: 1.1 1;
+      display: flex;
+      align-items: center;
+
+      .role-icon {
+        margin-right: 35px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        border-radius: 37.5px;
+        background-color: #4bb1b7;
+      }
+
+      .job-role {
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        text-transform: uppercase;
+      }
+
+    }
+
+    .job-info {
+      flex: 1 1;
+      display: flex;
+      justify-content: space-between;
+
+      .job-location,
+      .job-position  {
+        font-family: Roboto;
+        font-size: 18px;
+        color: #000;
+      }
+
+    }
+
+  }
+}
